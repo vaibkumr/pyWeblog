@@ -65,6 +65,9 @@ python delete_post.py <UUID HERE>
 A live example can be seen [here](http://timemachine.netlify.com)
 ![Screen Shot](https://i.imgur.com/2XiCSqQ.jpg)
 
+A video tutorial on how to use this:-
+https://youtu.be/j1jr4t71K7Y
+
 
 ## Dependencies 
 - Python libraries:-
