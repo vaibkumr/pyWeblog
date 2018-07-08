@@ -1,0 +1,28 @@
+#BEGIN
+
+##Title
+Title here
+##Title
+
+##Tags
+tags,seperated,by,commas,here,dont,add,a,new,line,here
+##Tags
+
+##Content
+Some content here, new line will be added on HTML as this file so be careful while pressing ENTER
+##Image
+<image url here,can't enter multple urls under same tag>
+##Image
+##Code
+<url here, can't enter multple urls under same tag>
+##Code
+##Code
+https://gist.github.com/TimeTraveller-San/da33f05c64813554f79e0574738a7e57.js
+##Code
+An example of code above, make sure its a github gist embed URL
+As of now using <b></b> and <i></i> in this file breaks the software, dont use them until fix comes.
+Also, this file's debugger and comments coming soon.
+
+##Content
+
+#END
