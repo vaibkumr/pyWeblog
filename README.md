@@ -72,10 +72,9 @@ https://youtu.be/j1jr4t71K7Y
 ## Dependencies 
 - Python libraries:-
   - BeautifulSoup4
-  - Pickle
   - arrow
  ```
- sudo pip install beautifulsoup4 Pickle arrow
+ sudo pip install beautifulsoup4 arrow
  ```
 ## To do
 - Pagination
