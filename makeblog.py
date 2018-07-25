@@ -226,10 +226,17 @@ def edit_html(file_name,new_page_title):
                 #     init_new_file(each_tag.lower())
                 #     init_count=init_count+1
 
+
+
+            if(file_name!="index.html"):
+                #If file name is index then relative path to others different from all others
+                lower_url="../"+each_tag.lower()+"/1.html"
+            else:
+                lower_url="categories/"+each_tag.lower()+"/1.html"
             #Adding to main blog post (all tags need to be added here)
             new_underpost_tag_label=soup.new_tag("span")
             new_underpost_tag_label['class']="label label-default tag"
-            new_underpost_tag_link=soup.new_tag("a",href=url)
+            new_underpost_tag_link=soup.new_tag("a",href=lower_url)
             new_underpost_tag_link.string=each_tag.lower()
             new_underpost_tag_label.append(new_underpost_tag_link)
             if(each_tag.lower()!=""):
